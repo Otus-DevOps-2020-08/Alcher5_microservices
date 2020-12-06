@@ -24,8 +24,6 @@ Alcher5 microservices repository
 - Добавлено создание образа с помощью **packer** (из `docker-monolith/infra`):
 `packer build -var-file=packer/variables.json packer/docker.json`
 
-- Добавлен **Vagrantfile** с помощью которого можно проверить **Ansible playbook** из директории `docker-monolith/infra/ansible` командой: `vagrant up` 
+- Добавлен **Vagrantfile** с помощью которого можно проверить **Ansible playbook** из директории `docker-monolith/infra/ansible` командой: `vagrant up`
 
 - Добавлена возможность поднятия инстансов в **YC** через **Terraform** из директории    `docker-monolith/infra/terraform` командой: `terraform apply -auto-approve`
-
-
