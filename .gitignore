@@ -13,4 +13,4 @@ variables.json
 
 *.retry
 
-
+.vagrant/
