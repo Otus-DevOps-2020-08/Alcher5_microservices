@@ -1,0 +1,16 @@
+variables.json
+
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfvars
+.terraform/
+
+/terraform/*.backup
+
+/terraform/key.json
+/terraform/terraform.tfstate
+
+*.retry
+
+.vagrant/

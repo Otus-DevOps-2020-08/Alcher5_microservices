@@ -1,0 +1,5 @@
+{
+    "user_folder_id": "11111111111111111111",
+    "user_source_image_family": "ubuntu-1604-lts",
+    "user_service_account_key_file": "../../../key2.json"
+}
