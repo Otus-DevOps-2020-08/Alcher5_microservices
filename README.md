@@ -25,15 +25,7 @@ Alcher5 microservices repository
 
 - Пример команды: `docker-compose --project-name NAME up -d`
 
-
-
-
-
-
-
-
-
-
+- Добавлен docker-compose.override.yml который создает volume для каждого контейнера и запускает сервис puma в debug режиме с 2 воркерами.
 
 ## Домашнее задание к лекции №17
 
